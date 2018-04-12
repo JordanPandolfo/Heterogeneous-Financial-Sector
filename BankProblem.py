@@ -121,7 +121,7 @@ def Vnew(V):
             Vnew[a,t]  = np.nanmax(V_today)    
 
             count = count + 1                
-            
+    #Howard Policy Improvement step        
     V0 = Vnew
     V1 = np.zeros((alen,tlen))
     h = 0
